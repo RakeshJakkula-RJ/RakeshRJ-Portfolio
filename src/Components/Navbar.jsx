@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
    
     <nav className='bg-slate-800 sticky top-0'>
-        <div className='mx-auto max-w-7xl px-8 py-4 flex flex-col 
+        <div className='mx-auto max-w-7xl px-8 py-4  flex flex-col 
                 sm:flex-row sm:gap-x-16 sm:items-center sm:py-8' >  
             <h2 className='text-3xl font-bold text-rose-600'>
                 Rakesh-RJ's
