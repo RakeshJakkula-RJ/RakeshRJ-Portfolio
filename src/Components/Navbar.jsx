@@ -8,9 +8,11 @@ const Navbar = () => {
     <nav className='bg-slate-800 sticky top-0'>
         <div className='mx-auto max-w-7xl px-8 py-4  flex flex-col 
                 sm:flex-row sm:gap-x-16 sm:items-center sm:py-8' >  
-            <h2 className='text-3xl font-bold  text-rose-600 '>
-                RJ
-                 <span className=' text-rose-600'>Vision</span>
+            <h2 className='text-3xl font-bold text-transparent bg-clip-text  bg-gradient-to-r 
+                  from-cyan-600 via-pink-500 to-red-600 '>
+                Rakesh
+                 <span className='text-transparent bg-clip-text  bg-gradient-to-r
+                  from-cyan-600 via-pink-500 to-rose-700'>RJ</span>
             </h2>
 
             <div className='flex gap-x-3 text-emerald-50 hover:text-purple-400' >

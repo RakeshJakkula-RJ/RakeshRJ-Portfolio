@@ -7,7 +7,8 @@ const Skills = () => {
     <section className='py-20 align-element bg-slate-400' id="skills"   >
 
         <div className=' pb-5'>
-                  <h2 className='text-4xl font-medium text-rose-800 text-center tracking-wider capitalize'>
+                  <h2 className='text-5xl font-medium text-transparent bg-clip-text  bg-gradient-to-r
+                   from-rose-600 to-cyan-600 text-center tracking-wider capitalize'>
                        Skills & Expertise
                   </h2>
                </div>
@@ -19,7 +20,7 @@ const Skills = () => {
 
                return  <article key={id}>
                            <span>{ icon }</span>
-                           <h4 className='mt-6 text-rose-800 font-bold '>{ title }</h4>
+                           <h4 className='mt-6 text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-cyan-600 font-bold '>{ title }</h4>
                            <p className='mt-2 font-medium text-slate-950'>{ text }</p>
                        </article>
              })}

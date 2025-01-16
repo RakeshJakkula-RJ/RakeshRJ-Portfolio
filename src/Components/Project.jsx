@@ -9,7 +9,7 @@ const Project = () => {
     <section className='bg-slate-800 py-20 align-element' id="projects">
 
          <div className=' pb-5'>
-                  <h2 className='text-4xl font-medium  text-red-900 text-center tracking-wider capitalize'>
+                  <h2 className='text-5xl font-medium  text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-rose-600 text-center tracking-wider capitalize'>
                        Projects
                   </h2>
         </div>
@@ -24,7 +24,7 @@ const Project = () => {
                            className='w-full object-cover  rounded-t-lg h-64'/>
 
                             <div className='capitalize p-8'>
-                                <h2 className='text-xl tracking-wide text-rose-950 font-medium'>{ title }</h2>
+                                <h2 className='text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-sky-600 font-medium'>{ title }</h2>
                                 <p className='mt-4 text-slate-200 font-serif leading-loose'>{ text }</p>
                                  <div className='mt-4 flex gap-x-4 items-center'>
                                     <a href={ url }>

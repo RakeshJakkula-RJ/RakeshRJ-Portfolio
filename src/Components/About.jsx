@@ -9,7 +9,7 @@ const About = () => {
             <article>
                 <div className='pb-5'>
 
-                  <h2 className='text-4xl font-medium text-rose-800 text-center tracking-wider capitalize'>
+                  <h2 className='text-4xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-cyan-600 text-center tracking-wider capitalize'>
                         Hello!Code With Me
                   </h2>
                </div>
